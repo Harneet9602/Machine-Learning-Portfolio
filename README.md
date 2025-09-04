@@ -12,7 +12,7 @@ Welcome to my portfolio of data mining and machine learning projects! This repos
 8.  **[Gradient Boosting & Regularization](./notebooks/08-Gradient-Boosting-and-Regularization/)**
 9.  **[SVM Kernels and Dimensionality Reduction](./notebooks/09-SVM-Kernels-and-PCA/)**
 10. **[Final Project Synthesis](./notebooks/10-Final-Project-Synthesis/)**
-11. 
+    
 ## Technologies & Libraries Used
 **Language**: Python
 **Libraries:**
