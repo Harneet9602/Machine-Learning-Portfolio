@@ -48,4 +48,4 @@ The preprocessed data was then saved to CSV Files/processed_housing_data.csv for
 
 ## ✅ Conclusion & Next Steps
 This initial analysis successfully explored the housing dataset and prepared it for model building. The key takeaway is that a house's area and furnishing status are strong predictors of its price.
-The cleaned and scaled dataset is now ready for the next logical step: training a regression model to predict housing prices based on these features. Excellent work on this first part of the project!
+The cleaned and scaled dataset is now ready for the next logical step: training a regression model to predict housing prices based on these features.
