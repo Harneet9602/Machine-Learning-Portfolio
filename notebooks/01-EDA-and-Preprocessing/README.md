@@ -15,7 +15,7 @@ This project covers the essential first steps of any data science workflow. The 
 
 ## Dataset
 The project uses the Housing Prices Dataset, which contains various features describing residential homes in an Indian city. It contains information on 545 house listings with 13 distinct features.
--Shape: 545 rows, 13 columns
+* Shape: 545 rows, 13 columns
 -Data Quality: There are no missing values, which simplifies the cleaning process.
 -Features:
   -Numerical: price, area, bedrooms, bathrooms, stories, parking
