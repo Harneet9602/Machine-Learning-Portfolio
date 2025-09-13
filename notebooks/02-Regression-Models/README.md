@@ -5,14 +5,10 @@ This project explores three fundamental regression algorithms to predict continu
 1.  To predict **house prices** using both single and multiple features from a pre-processed housing dataset.
 2.  To model the non-linear relationship between a person's **height and weight**, demonstrating the limitations of a simple linear model and the advantages of a polynomial one.
 
----
-
 ## Key Concepts Demonstrated
 * **Simple Linear Regression**: Building a baseline model to predict a target variable (height) using a single input feature (weight).
 * **Multiple Linear Regression**: Implementing a linear model that uses multiple input features (e.g., area, bedrooms) to predict a single continuous target (price).
 * **Polynomial Regression**: Building a model capable of capturing non-linear relationships in data by creating polynomial features from an input feature. This was used to model the curved relationship between height and weight.
-
----
 
 ## Datasets Used
 1.  **Housing Price Dataset** (`processed_housing_data.csv`)
@@ -24,15 +20,11 @@ This project explores three fundamental regression algorithms to predict continu
     * A simple dataset containing two columns: `Height` and `Weight`.
     * This dataset is used to demonstrate and compare the performance of linear vs. polynomial models on data with a clear non-linear trend.
 
----
-
 ## Project Structure
 This project is divided into three Jupyter Notebooks, each focusing on a specific model:
 * `Linear-Regression-model.ipynb`: A detailed implementation of Simple Linear Regression on **scaled** height-weight data.
-* `02-multiple-regression.ipynb`: Implementation of Multiple Linear Regression on the housing price dataset.
+* `Multiple-regression.ipynb`: Implementation of Multiple Linear Regression on the housing price dataset.
 * `polynomial-regression.ipynb`: A comparison of Simple Linear vs. Polynomial Regression on **unscaled** height-weight data to visually emphasize the model fits.
-
----
 
 ## Model Summaries and Results
 
@@ -46,18 +38,12 @@ This project is divided into three Jupyter Notebooks, each focusing on a specifi
 * **Result**: The model achieved an **MSE of 0.0133** on the test set.
 * **Conclusion**: The model demonstrates high accuracy. By analyzing the coefficients, key price drivers were identified, with **`area` and `bathrooms`** having the most significant positive impact. The residual plot showed a random scatter of errors, indicating a good model fit.
 
-![Multiple Regression Performance](./images/multi_reg_performance.png)
-
 ### 3. Polynomial Regression (Height from Weight)
 * **Objective**: To improve upon the simple linear model by capturing the non-linear trend in the height-weight data.
 * **Results**:
     * Simple Linear Regression MSE: **121.20**
     * Polynomial Regression (Degree 3) MSE: **120.56**
 * **Conclusion**: The Polynomial Regression model achieved a lower MSE, indicating a better numerical fit. The visualization clearly shows its curved line following the data's natural trend more closely than the straight line of the simple linear model.
-
-![Linear vs Polynomial Fit](./images/poly_fit_comparison.png)
-
----
 
 ## How to Run
 1.  **Clone the repository.**
