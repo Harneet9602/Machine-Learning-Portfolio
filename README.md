@@ -11,7 +11,7 @@ Welcome to my portfolio of data mining and machine learning projects! This repos
 7.  **[Ensemble Methods](./notebooks/07-Ensemble-Methods/)**
 8.  **[Gradient Boosting & Regularization](./notebooks/08-Gradient-Boosting-and-Regularization/)**
 9.  **[SVM Kernels and Dimensionality Reduction](./notebooks/09-SVM-Kernels-and-PCA/)**
-10. **[Final Project Synthesis](./notebooks/10-Final-Project-Synthesis/)**
+10. **[Classification Pipeline Comparison](./notebooks/10-Classification-Pipeline-Comparison/)**
     
 ## Technologies & Libraries Used
 **Language**: Python
